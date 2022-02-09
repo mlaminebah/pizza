@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mine Pizza</title>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">MinePizza</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="admin.html">Admin</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+              <h1 class="header center red-text">Hello super user</h1>
+              <div class="row center">
+                <blocquote class="header col s12 light">
+                    Je parie que tu as de nouvelles bonnes pizza à faire découvrir!
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <div class="section" id="">
+            <div class="container">
+              <form class="col s12">
+
+                <div class="row">
+                  <div class="input-field col s4">
+                    <input placeholder="Entrez le nom de la pizza" id="nom" type="text" class="validate">
+                    <label for="nom">Nom de la pizza </label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s4">
+                    <input id="prix" type="number" step="0.01" class="validate">
+                    <label for="prix">Prix de la pizza </label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="checkbox-field col s6" id="dimns">
+                    <label><strong>Dimensions :</strong></label>
+                    <label>
+                      <input name="dimensions" type="radio"/>
+                      <span id="petite">Petite</span>
+                    </label>       
+                    <label id="moyenne">
+                      <input name="dimensions" type="radio"/>
+                      <span>Moyenne</span>
+                    </label>
+                    <label id="grande">
+                      <input name="dimensions" type="radio"/>
+                      <span>Grande</span>
+                    </label>       
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
+          <script src="admin.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>
